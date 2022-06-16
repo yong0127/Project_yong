@@ -1,0 +1,45 @@
+/**Desktop**/
+.md-flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.max-w-card {
+    max-width: 56rem;
+}
+    
+.img-desktop {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.img-mobile {
+    display:  none;
+}
+
+.title-area {
+    text-align: left;
+}
+.md-padding {
+    padding: 4rem;
+}
+
+.info {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 20rem;
+    text-transform: uppercase;
+}
+.div-gap {
+    gap: 4rem;
+}
+.col1, .col2, .col3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
